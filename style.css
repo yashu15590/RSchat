@@ -80,8 +80,10 @@ body {
     display: inline-block;
     width: auto;
     margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 9px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 25px;
     max-width: 75%;
     line-height: 1.5;
     position: relative;
@@ -89,14 +91,14 @@ body {
 }
 
 .bubble.sender {
-    background-color: #efb12f;
+    background-color: #EBA72E;
     color: black;
     margin-left: auto;
 }
 
 .bubble.receiver {
-    background-color: #373f51;
-    color: white;
+    background-color: #1D2A29;
+    color: #F5F5F5;
     margin-right: auto;
 }
 
@@ -152,3 +154,45 @@ body {
 .emoji {
     font-size: 18px;
 }
+
+/* 
+.chat-box {
+    padding: 10px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .chat-message {
+    background: #2d2d2d;
+    color: white;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 12px;
+    max-width: 80%;
+    position: relative;
+  } */
+/*   
+.reply-to {
+background: #444;
+font-size: 13px;
+padding: 6px 10px;
+border-left: 3px solid #888;
+border-radius: 10px;
+margin-bottom: 6px;
+color: #ccc;
+}
+
+.reply-preview-box {
+background: #333;
+padding: 8px 10px;
+color: white;
+margin: 5px 10px;
+border-left: 4px solid #ff9800;
+border-radius: 10px;
+}
+
+.input-box {
+display: flex;
+gap: 10px;
+padding: 10px;
+} */
