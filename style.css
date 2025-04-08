@@ -94,13 +94,18 @@ body {
     background-color: #EBA72E;
     color: black;
     margin-left: auto;
+    box-shadow: 0 4px 8px rgba(255, 234, 0, 0.2);
 }
 
 .bubble.receiver {
     background-color: #1D2A29;
-    color: #F5F5F5;
+    color: #FAF9F6;
     margin-right: auto;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); */
+    box-shadow: inset 0 0px 10px rgba(132, 136, 132, 0.2), 0 4px 8px rgba(0, 0, 0, 0.7);
 }
+
+
 
 .timestamp {
     font-size: 10px;
