@@ -88,6 +88,8 @@ body {
     line-height: 1.5;
     position: relative;
     /* padding-bottom: 18px; */
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .bubble.sender {
